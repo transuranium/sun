@@ -374,6 +374,11 @@ html {
     position: relative;
   }
 
+  .showcase-carousel__item p {
+    position: relative; /* Установите позицию как относительную */
+    margin-top: -40px; /* Установите отрицательный верхний отступ, чтобы поднять текст над кнопками */
+  }
+
   .contact-button {
     position: absolute;
     bottom: 0; /* Расположить кнопки внизу слайдера */
