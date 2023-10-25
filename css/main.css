@@ -367,3 +367,23 @@ html {
 .contact-button.right {
   right: 20px;
 }
+
+/* Стили для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .showcase-carousel__item {
+    position: relative;
+  }
+
+  .contact-button {
+    position: absolute;
+    bottom: 0; /* Расположить кнопки внизу слайдера */
+  }
+
+  .contact-button.left {
+    left: 20px; /* Расположить кнопку "Связаться" слева с отступом */
+  }
+
+  .contact-button.right {
+    right: 20px; /* Расположить кнопку "Больше информации" справа с отступом */
+  }
+}
